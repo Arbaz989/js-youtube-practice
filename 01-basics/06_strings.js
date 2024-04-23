@@ -7,10 +7,10 @@ console.log(`My name is ${user} and my repo is ${count} `);
 // we'll use backtis it comes with string interpretion its a placeholder we can inject any variable directly in there '
 
 const user2 = new String('Arrbaz');
-// console.log(user2[4]);
+console.log(user2[4]);
 // console.log(user2.__proto__)
 
-console.log(user2.indexOf('Arbaz'))
+console.log(user2.indexOf('Arrbaz'))
 console.log(user.length);
 console.log(user2.toUpperCase())
 console.log(user.trim());
