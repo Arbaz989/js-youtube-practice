@@ -53,6 +53,11 @@ console.log(addTwo(2,3))
 
 // Immdiatiely INvoked Funcion Expressions (IFFE)
 
-(function chai(){
-    console.log(`DB conneteres`)
+(function chaiii(){
+    // named iife
+    console.log(`DB conneteres`);
 })();
+
+( (name)=>{
+    console.log(`Db connnected two ${name}`);
+})('Arbaz');
