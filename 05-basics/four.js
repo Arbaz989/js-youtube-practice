@@ -7,7 +7,7 @@ const obj ={
 }
 
 for (const key in obj) {
-    console.log(`${key} its properties ${obj[key]}` )
+    //console.log(`${key} its properties ${obj[key]}` )
 }
 
 
@@ -17,5 +17,20 @@ for (const key in obj) {
 
 const myArray = ["Arbaz", "ldfjkj", 134];
 for (const value in myArray) {
-  console.log(myArray[value]);
+ // console.log(myArray[value]);
 }
+
+
+const  myboj = [{
+  user1 : "Atba"
+},
+{
+user2 : "djkfjgf"
+},
+{
+  user3 : 23
+}]
+
+  myboj.forEach((item) => {
+  console.log(item.user1)
+});
